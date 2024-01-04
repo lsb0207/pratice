@@ -2,15 +2,13 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+div{
+  box-sizing : border-box;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.list{
+  padding-left : 20px;
+  text-align : left;
+  border-bottom: 1px solid grey;
 }
 
 .App-header {
@@ -23,7 +21,20 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+body{
+  font-family:
+          'nanumsquare';
+}
 
+.black-nav{
+  background: black;
+  width:100%;
+  display:flex;
+  color : white;
+  padding: 20px;
+  font-weight: 600;
+  font-size : 20px;
+}
 .App-link {
   color: #61dafb;
 }
