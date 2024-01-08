@@ -9,8 +9,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-      <Menu/>
-  </React.StrictMode>
+  </React.StrictMode> // 열기 닫기, 앞에다가 /, 여는게 귀찮으면 앞에다가 /하면 한걸로침
 );
 
 // If you want to start measuring performance in your app, pass a function
