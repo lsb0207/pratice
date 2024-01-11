@@ -1,0 +1,10 @@
+.MenuList{
+    width: 50px;
+    background-color: black ;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.LinkButton{
+    width: 100%;
+}
